@@ -1,8 +1,9 @@
-import blog01 from '../../assets/blog01.png';
-import blog02 from '../../assets/blog02.png';
-import blog03 from '../../assets/blog03.png';
-import blog04 from '../../assets/blog04.png';
-import blog05 from '../../assets/blog05.png';
+import blog01 from '../../assets/sipmihira_suriyaak.png';
+import blog02 from '../../assets/sipmihira_ravis.png';
+import blog03 from '../../assets/sipmihira_viraj.png';
+import blog04 from '../../assets/sipmihira_sandaru.png';
+import blog05 from '../../assets/sipmihira_hashini.png';
+import blog06 from '../../assets/sipmihira_lankani.png';
 
 export {
   blog01,
@@ -10,4 +11,5 @@ export {
   blog03,
   blog04,
   blog05,
+  blog06,
 };
