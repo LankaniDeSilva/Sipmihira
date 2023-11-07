@@ -27,14 +27,14 @@
     flex-direction: row;
 }
 
-.gpt3__navbar-sign {
+.gpt3__navbar-menulist {
     display: flex;
     justify-content: flex-end;
     align-items: center;
 }
 
 .gpt3__navbar-links_container p,
-.gpt3__navbar-sign p,
+.gpt3__navbar-menulist p,
 .gpt3__navbar-menu_container p {
     color: #fff;
     font-family: var(--font-family);
@@ -47,7 +47,7 @@
     cursor: pointer;
 }
 
-.gpt3__navbar-sign button,
+.gpt3__navbar-menulist button,
 .gpt3__navbar-menu_container button {
     padding: 0.5rem 1rem;
     color: #fff;
@@ -78,9 +78,10 @@
     justify-content: flex-end;
     align-items: flex-end;
     flex-direction: column;
+
+    text-align: center;
+    background: linear-gradient(to bottom, #d3cffd, rgb(231, 97, 215));
     
-    text-align: end;
-    background: var(--color-footer);
     padding: 2rem;
     position: absolute;
     right: 0;
@@ -88,16 +89,40 @@
     margin-top: 1rem;
     min-width: 210px;
     border-radius: 5px;
-    box-shadow: 0px 0px 5px rgba(0,0, 0,0.2);
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
 }
 
 .gpt3__navbar-menu_container p {
     margin: 1rem 0;
 }
 
-.gpt3__navbar-menu_container-links-sign {
+.gpt3__navbar-menu_container-links-menulist {
     display: none;
 }
+
+/* Add this to your existing CSS file */
+.dropdown-list {
+    display: none;
+    position: absolute;
+    background: #fff;
+    /* Set the background color */
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+}
+
+.dropdown-list ul {
+    list-style: none;
+    padding: 0;
+}
+
+.dropdown-list li {
+    margin-bottom: 5px;
+}
+
+.dropdown-list.open {
+    display: block;
+}
+
 
 @media screen and (max-width: 1050px) {
     .gpt3__navbar-links_container {
@@ -120,7 +145,7 @@
         padding: 2rem;
     }
 
-    .gpt3__navbar-sign {
+    .gpt3__navbar-menulist {
         display: none;
     }
 
@@ -128,7 +153,48 @@
         top: 20px;
     }
 
-    .gpt3__navbar-menu_container-links-sign {
+    .gpt3__navbar-menu_container-links-menulist {
+        display: block;
+    }
+}
+
+/* Add this CSS for the dropdown menu */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background: linear-gradient(to bottom, #d3cffd, rgb(196, 90, 245));
+    min-width: 160px;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Mobile responsiveness */
+@media screen and (max-width: 1050px) {
+    .gpt3__navbar-links_container {
+        display: none;
+    }
+
+    .gpt3__navbar-menu {
+        display: flex;
+    }
+
+    /* Mobile dropdown menu */
+    .dropdown {
         display: block;
     }
 }

@@ -6,16 +6,31 @@ import './navbar.css';
 const Menu = () => (
   <>
     <p><a href="#home">Home</a></p>
-    <p><a href="#wgpt3">Project Scope</a></p>
+    <div className="dropdown">
+      <p style={{ color: "black" }}>Project Scope</p>
+      <div className="dropdown-content">
+        <a href="#project-scope-a">Literature Survey</a>
+        <a href="#project-scope-b">Research Gap</a>
+        <a href="#project-scope-c">Research Problem & Solution</a>
+        <a href="#project-scope-d">Research Objectives</a>
+        <a href="#project-scope-e">Methodology</a>
+        <a href="#project-scope-f">Technologies</a>
+      </div>
+    </div>
     <p><a href="#possibility">Milestones</a></p>
-    <p><a href="#downloads">Downloads</a></p>
+    <div className="dropdown">
+      <p style={{ color: "black" }}>Downloads</p>
+      <div className="dropdown-content">
+        <a href="#documents">Documents</a>
+        <a href="#presentations">Presentations</a>
+      </div>
+    </div>
     <p><a href="#blog">About Us</a></p>
     <p><a href="#contactUs">Contact Us</a></p>
   </>
 );
 
 const Navbar = () => {
-
   const [toggleMenu, setToggleMenu] = useState(false);
   return (
     <div className='gpt3__navbar'>
@@ -23,20 +38,16 @@ const Navbar = () => {
         <div className='gpt3__navbar-links_logo'>
           <img src={logo} alt="logo" />
         </div>
-
-        <div className="gpt3__navbar-links_container">
-          <Menu />
-        </div>
       </div>
 
-      <div className="gpt3__navbar-sign">
-        <p>Sign in</p>
-        <button type="button">Sign up</button>
+      <div className="gpt3__navbar-menulist">
+        <Menu />
       </div>
+
       <div className="gpt3__navbar-menu">
         {toggleMenu
-          ? <RiCloseLine color="#fff" size={27} onClick={() => setToggleMenu(false)} />
-          : <RiMenu3Line color="#fff" size={27} onClick={() => setToggleMenu(true)} />
+          ? <RiCloseLine color="#000" size={27} onClick={() => setToggleMenu(false)} />
+          : <RiMenu3Line color="#000" size={27} onClick={() => setToggleMenu(true)} />
         }
         {toggleMenu && (
           <div className="gpt3__navbar-menu_container scale-up-center">
@@ -46,7 +57,7 @@ const Navbar = () => {
           </div>
         )}
       </div>
-    </div >
+    </div>
   )
 }
 
