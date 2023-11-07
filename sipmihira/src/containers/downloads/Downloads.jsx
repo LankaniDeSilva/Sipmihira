@@ -116,7 +116,7 @@ const CardComponent = (props) => {
 const Downloads = () => (
   <div className="gpt3__features section__padding" id="downloads">
     <div className="gpt3__features-heading">
-      <h1 className="gradient__text">Documents</h1>
+      <h1 className="gradient__text" id="documents">Documents</h1>
     </div>
     <div className="gpt3__features-container">
       <Grid
@@ -207,7 +207,7 @@ const Downloads = () => (
       </Grid>
     </div>
     <div className="gpt3__features-heading">
-      <h1 className="gradient__text">Presentations</h1>
+      <h1 className="gradient__text" id="presentations">Presentations</h1>
     </div>
     <div className="gpt3__features-container">
       <Grid
