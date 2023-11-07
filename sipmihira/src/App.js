@@ -1,6 +1,7 @@
 import './App.css';
-import { Footer, Blog, Possibility, Downloads, WhatGPT3, Header } from './containers';
-import { CTA, Brand, Navbar, ContactUs } from './components';
+import { Footer, Blog, Possibility, Downloads, WhatGPT3, Header, 
+  LiteratureSurvey, ResearchGap , ResearchProblem, ResearchObjectives, Methodology } from './containers';
+import { CTA, Brand, Navbar, ContactUs} from './components';
 
 function App() {
   return (
@@ -9,6 +10,11 @@ function App() {
       <Navbar />
       <Header />
     </div>
+    <LiteratureSurvey />
+    <ResearchGap/>
+    <ResearchProblem/>
+    <ResearchObjectives/>
+    <Methodology/>
     <Brand />
     <WhatGPT3 />
     <Downloads />
@@ -21,4 +27,4 @@ function App() {
   );
 }
 
-export default App;
+export default App; 
