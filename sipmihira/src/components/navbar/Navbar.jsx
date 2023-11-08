@@ -14,7 +14,7 @@ const Menu = () => (
         <a href="#project-scope-c">Research Problem & Solution</a>
         <a href="#project-scope-d">Research Objectives</a>
         <a href="#project-scope-e">Methodology</a>
-        <a href="#project-scope-f">Technologies</a>
+        <a href="#technolog">Technologies</a>
       </div>
     </div>
     <p><a href="#possibility">Milestones</a></p>
@@ -33,25 +33,25 @@ const Menu = () => (
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
   return (
-    <div className='gpt3__navbar'>
-      <div className='gpt3__navbar-links'>
-        <div className='gpt3__navbar-links_logo'>
+    <div className='sipmihira__navbar'>
+      <div className='sipmihira__navbar-links'>
+        <div className='sipmihira__navbar-links_logo'>
           <img src={logo} alt="logo" />
         </div>
       </div>
 
-      <div className="gpt3__navbar-menulist">
+      <div className="sipmihira__navbar-menulist">
         <Menu />
       </div>
 
-      <div className="gpt3__navbar-menu">
+      <div className="sipmihira__navbar-menu">
         {toggleMenu
           ? <RiCloseLine color="#000" size={27} onClick={() => setToggleMenu(false)} />
           : <RiMenu3Line color="#000" size={27} onClick={() => setToggleMenu(true)} />
         }
         {toggleMenu && (
-          <div className="gpt3__navbar-menu_container scale-up-center">
-            <div className="gpt3__navbar-menu_container-links">
+          <div className="sipmihira__navbar-menu_container scale-up-center">
+            <div className="sipmihira__navbar-menu_container-links">
               <Menu />
             </div>
           </div>

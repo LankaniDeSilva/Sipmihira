@@ -1,4 +1,4 @@
-.sipmihira__blog-container_article {
+.sipmihira__technology-container_article {
     width: 100%;
     height: 100%;
     display: flex;
@@ -6,18 +6,18 @@
     background: var(--color-footer);
 }
 
-.sipmihira__blog-container_article-image {
+.sipmihira__technology-container_article-image {
     width: 100%;
     height: 100%;
     background: var(--color-bg);
 }
 
-.sipmihira__blog-container_article-image img {
+.sipmihira__technology-container_article-image img {
     width: 100%;
     height: 100%;
 }
 
-.sipmihira__blog-container_article-content {
+.sipmihira__technology-container_article-content {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -25,15 +25,15 @@
     height: 100%;
 }
 
-.sipmihira__blog-container_article-content p {
+.sipmihira__technology-container_article-content p {
     font-family: var(--font-family);
     font-size: 19px;
     font-weight: 700;
     line-height: 35px;
-    color: #fff;
+    color: #000000;
 }
 
-.sipmihira__blog-container_article-content h3 {
+.sipmihira__technology-container_article-content h3 {
     font-family: var(--font-family);
     font-size: 15px;
     font-weight: 800;
@@ -50,7 +50,7 @@
     border-radius: 15px;
 }
 
-.sipmihira__blog-container_article-content h4 {
+.sipmihira__technology-container_article-content h4 {
     font-family: var(--font-family);
     font-size: 18.1px;
     font-weight: 700;
@@ -58,7 +58,7 @@
     color: #fff;
 }
 
-.sipmihira__blog-container_article-content p2 {
+.sipmihira__technology-container_article-content p2 {
     font-family: var(--font-family);
     font-size: 15px;
     font-weight: 700;
@@ -67,13 +67,13 @@
     padding-left: 10px; 
 }
 
-.sipmihira__blog-container_article-content p:last-child {
+.sipmihira__technology-container_article-content p:last-child {
     cursor: pointer;
 }
 
 
 @media screen and (max-width: 550px) {
-    .sipmihira__blog-container_article-content h3 {
+    .sipmihira__technology-container_article-content h3 {
         font-size: 18px;
         line-height: 25p;
     }
