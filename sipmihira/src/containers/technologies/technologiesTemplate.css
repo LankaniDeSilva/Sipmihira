@@ -8,7 +8,7 @@
 
 .sipmihira__technology-container_article-image {
     width: 100%;
-    height: 100%;
+    height: 80%;
     background: var(--color-bg);
 }
 
@@ -70,7 +70,6 @@
 .sipmihira__technology-container_article-content p:last-child {
     cursor: pointer;
 }
-
 
 @media screen and (max-width: 550px) {
     .sipmihira__technology-container_article-content h3 {

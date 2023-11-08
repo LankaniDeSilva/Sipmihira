@@ -7,6 +7,7 @@ import technology06 from '../../assets/sipmihira_openCV2_logo.jpg';
 import technology07 from '../../assets/sipmihira_nodejs_logo.jpg';
 import technology08 from '../../assets/sipmihira_GPT2Transformers_logo.jpeg';
 import technology09 from '../../assets/sipmihira_AzureFunctions_logo.jpg';
+import technology10 from '../../assets/sipmihira_firebase_logo.jpeg';
 
 export {
   technology01,
@@ -18,4 +19,5 @@ export {
   technology07,
   technology08,
   technology09,
+  technology10,
 };
