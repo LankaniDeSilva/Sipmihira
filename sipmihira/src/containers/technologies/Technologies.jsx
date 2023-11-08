@@ -1,6 +1,6 @@
 import React from 'react';
 import TechnologiesTemplate from './TechnologiesTemplate';
-import { technology01, technology02, technology03, technology04, technology05, technology06, technology07, technology08, technology09 } from './imports';
+import { technology01, technology02, technology03, technology04, technology05, technology06, technology07, technology08, technology09, technology10 } from './imports';
 import './technologies.css';
 
 const Technologies = () => (
@@ -21,6 +21,7 @@ const Technologies = () => (
         <TechnologiesTemplate imgUrl={technology07} name="NodeJS" />
         <TechnologiesTemplate imgUrl={technology08} name="GPT-2 Transformers" />
         <TechnologiesTemplate imgUrl={technology09} name="Azure Functions" />
+        <TechnologiesTemplate imgUrl={technology10} name="Firebase" />
       </div>
     </div>
   </div>
