@@ -1,54 +1,54 @@
-.sipmihira__blog {
+.sipmihira__technology {
     display: flex;
     flex-direction: column;    
 }
 
-.sipmihira__blog-heading {
+.sipmihira__technology-heading {
     width: 100%;
     text-align: left;
     margin-bottom: 5rem;
 }
 
-.sipmihira__blog-heading h1 {
+.sipmihira__technology-heading h1 {
     font-size: 62px;
     line-height: 75px;
     font-family: var(--font-family);
     font-weight: 800;
 }
 
-.sipmihira__blog-container {
+.sipmihira__technology-container {
     display: flex;
     flex-direction: row;
 }
 
-.sipmihira__blog-container_groupB {
+.sipmihira__technology-container_groupB {
     flex: 1;
     display:grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(7, 1fr);
     grid-gap: 2.5rem;
 }
 
 .h2{
-    font-size: 30px;
+    font-size: 35px;
 }
 
 .h3{
-    font-size: 40px;
+    font-size: 20px;
 }
 
 @media screen and (max-width: 700px) {
-    .sipmihira__blog-container_groupB {
-        grid-template-columns: repeat(1, 1fr);
+    .sipmihira__technology-container_groupB {
+        grid-template-columns: repeat(2, 1fr);
     }
 
-    .sipmihira__blog-heading h1 {
+    .sipmihira__technology-heading h1 {
         font-size: 46px;
         line-height: 52px;
     }
 }
 
 @media screen and (max-width: 550px) {
-    .sipmihira__blog-heading h1 {
+    .sipmihira__technology-heading h1 {
         font-size: 34px;
         line-height: 42px;
     }

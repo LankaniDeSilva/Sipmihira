@@ -28,10 +28,10 @@ const ContactUs = () => {
   };
 
   return (
-    <div className="gpt3__blog section__padding" id="contactUs">
-      <div className="gpt3__contactUs-container">
+    <div className="sipmihira__blog section__padding" id="contactUs">
+      <div className="sipmihira__contactUs-container">
         <h2 className="gradient__text">Contact Us</h2>
-        <div className="gpt3__contactUs-container_groupA">
+        <div className="sipmihira__contactUs-container_groupA">
           <div className="StyledContactForm">
             <form ref={form} onSubmit={sendEmail}>
               <label className="formLableHeading">Name</label>

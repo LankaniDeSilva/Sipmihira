@@ -63,12 +63,12 @@
     border: 1px solid rgb(220, 220, 220);
 }
 
-.gpt3__contactUs-container {
+.sipmihira__contactUs-container {
     display: flex;
     flex-direction: row;
 }
 
-.gpt3__contactUs-container_groupA {
+.sipmihira__contactUs-container_groupA {
     flex: 1;
     display: grid;
     grid-template-columns: repeat(2, 2fr);
@@ -112,7 +112,7 @@
         /* Adjust the margin for the submit button */
     }
 
-    .gpt3__contactUs-container_groupA {
+    .sipmihira__contactUs-container_groupA {
         flex: 1;
         display: grid;
         grid-template-columns: repeat(1, 2fr);
