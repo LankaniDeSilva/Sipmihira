@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
-import logo from '../../assets/sipmihira_logo.jpg';
+import logo from '../../assets/sipmihira_logo.png';
 import './navbar.css';
 
 const Menu = () => (
@@ -32,8 +32,26 @@ const Menu = () => (
 
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
+  const [isNavbarVisible, setIsNavbarVisible] = useState(true);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 100) {
+        setIsNavbarVisible(false);
+      } else {
+        setIsNavbarVisible(true);
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
   return (
-    <div className='sipmihira__navbar'>
+    <div className={`sipmihira__navbar ${isNavbarVisible ? '' : 'hidden'}`}>
       <div className='sipmihira__navbar-links'>
         <div className='sipmihira__navbar-links_logo'>
           <img src={logo} alt="logo" />
@@ -58,7 +76,7 @@ const Navbar = () => {
         )}
       </div>
     </div>
-  )
+  );
 }
 
-export default Navbar
+export default Navbar;
