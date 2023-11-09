@@ -1,48 +1,55 @@
 import React from "react";
-import "./product.css"; 
+import "./methodology.css"; 
+import { researchProblems } from "../productScope/import";
 
 
 function ReseacrhProblem() {
   return (
-    <div>
-      
-      <h1 class="header2_lite">Research Problem & Solution</h1>
-      <h2 class="header1_lite">Proposed Problem</h2>
+    <div id="research-problmes">
 
-      <div className="two-column-container">
-        <div className="left-column">
-        <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in
-            hendrerit magna, non tincidunt lectus. Vestibulum ultrices bibendum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in
-            hendrerit magna, non tincidunt lectus. Vestibulum ultrices bibendum Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in
-            hendrerit magna, non tincidunt lectus. Vestibulum ultrices bibendum Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in
-            hendrerit magna, non tincidunt lectus. Vestibulum ultrices bibendum Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in
-            hendrerit magna, non tincidunt lectus. Vestibulum ultrices bibendum Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in
-            hendrerit magna, non tincidunt lectus. Vestibulum ultrices bibendum Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in
-            hendrerit magna, non tincidunt lectus. Vestibulum ultrices bibendum Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in
-            hendrerit magna, non tincidunt lectus. Vestibulum ultrices bibendum Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in
-            hendrerit magna, non tincidunt lectus. Vestibulum ultrices bibendum Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in
-            hendrerit magna, non tincidunt lectus. Vestibulum ultrices bibendum
-          </p>
-        </div>
-        <div className="right-column"> 
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in
-            hendrerit magna, non tincidunt lectus. Vestibulum ultrices bibendum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in
-            hendrerit magna, non tincidunt lectus. Vestibulum ultrices bibendum Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in
-            hendrerit magna, non tincidunt lectus. Vestibulum ultrices bibendum Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in
-            hendrerit magna, non tincidunt lectus. Vestibulum ultrices bibendum Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in
-            hendrerit magna, non tincidunt lectus. Vestibulum ultrices bibendum Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in
-            hendrerit magna, non tincidunt lectus. Vestibulum ultrices bibendum Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in
-            hendrerit magna, non tincidunt lectus. Vestibulum ultrices bibendum Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in
-            hendrerit magna, non tincidunt lectus. Vestibulum ultrices bibendum Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in
-            hendrerit magna, non tincidunt lectus. Vestibulum ultrices bibendum Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in
-            hendrerit magna, non tincidunt lectus. Vestibulum ultrices bibendum
-          </p>
-        </div>
+ 
+  <h1 class="header2_lite">Research Problem & Solutions</h1><br></br>
+
+
+<div className="raw-container">
+
+  <div className="raw-flex2">
+
+    
+    <div className="paragraph-container">
+    <div className="image-container2">
+        <img className="image2" src={researchProblems} alt="researchProblems" />
       </div>
-      <br/> <br/> <br/> <br/> <br/>
+    <h2>Research Problems</h2><br></br>
+      <p className="p2">
+      The primary research problems revolve around developing a comprehensive mobile application for preschoolers to learn Sinhala letters, shapes, and storytelling. <br></br> <br></br>
+      Challenges include ensuring effective engagement and understanding of educational content, providing clear voice guidance, facilitating interactive letter-writing tasks, and incorporating user-generated images for personalized feedback.<br>
+      </br><br></br> Additionally, the generation of meaningful stories from disjoint images presents a challenge in maintaining coherence and relevance, especially when translated into Sinhala.
+      </p>
+      
+    </div><br></br>
+
+    <div className="paragraph-container">
+      <h2>Solutions</h2>
+      <p className="p2">To address these challenges, the mobile application should focus on refining the user interface for intuitive navigation and incorporate interactive elements such as touch-based letter writing and color-selecting exercises.<br></br><br></br>
+       Clear voice guidance throughout the learning process is crucial, and incorporating feedback mechanisms for user-uploaded images can enhance personalization.<br>
+       </br><br></br> For the storytelling component, implementing advanced image feature extraction and utilizing Bidirectional Gated Recurrent Unit (GRU) for caption and story generation can improve the coherence of the generated content.<br></br><br></br>
+        Translation to Sinhala and audio output should be optimized for accurate and engaging delivery, ensuring a holistic and effective learning experience for preschoolers.</p>
     </div>
+
+  </div>
+
+</div>
+
+<br />
+<br />
+<br />
+<br />
+<br />
+
+</div>
+
+
   );
 }
 
