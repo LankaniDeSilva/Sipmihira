@@ -6,7 +6,9 @@ import './aboutUs.css';
 const AboutUs = () => (
   <div className="sipmihira__blog section__padding" id="blog">
     <div className="sipmihira__blog-heading">
-      <h2 className="gradient__text h2">About Us <br /> </h2>
+    <div className="gpt3__header-content">
+        <h1 className="gradient__text" style={{ fontSize: '43px' }}>About Us </h1><br/>
+      </div>
       <h3 className="subHeadindg2 h3">Meet Our Team !</h3>
     </div>
     <div className="sipmihira__blog-container">

@@ -35,14 +35,14 @@ const StyledCard = styled(Card)`
 const StyledHeading = styled(Typography)`
   ${({ theme }) => `
     font-weight: bold;
-    font-size: 26px;
+    font-size: 20px;
   `}
 `;
 
 const StyledBody = styled(Typography)`
   ${({ theme }) => `
     font-weight: normal;
-    font-size: 18px;
+    font-size: 14px;
 `}
 `;
 

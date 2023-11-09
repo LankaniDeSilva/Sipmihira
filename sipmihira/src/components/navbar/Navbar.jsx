@@ -11,9 +11,9 @@ const Menu = () => (
       <div className="dropdown-content">
         <a href="#project-scope-a">Literature Survey</a>
         <a href="#project-scope-b">Research Gap</a>
-        <a href="#project-scope-c">Research Problem & Solution</a>
-        <a href="#project-scope-d">Research Objectives</a>
-        <a href="#project-scope-e">Methodology</a>
+        <a href="#research-problmes">Research Problem & Solution</a>
+        <a href="#researchObjectives">Research Objectives</a>
+        <a href="#methodology">Methodology</a>
         <a href="#technolog">Technologies</a>
       </div>
     </div>

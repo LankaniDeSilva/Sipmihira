@@ -3,8 +3,9 @@ import './product.css';
 
 const ResearchObjectives = () => {
   return (
+    <div id='researchObjectives'>
     <div>
-       <center> <h1 class="header2_lite">Research Objectives</h1> </center>
+       <center> <h1 class="gradient__text header2_lite">Research Objectives</h1> </center>
        <br/> <br/> 
     <div className="research-objectives">
         
@@ -41,6 +42,7 @@ const ResearchObjectives = () => {
       </div>
     </div>
     <br/> <br/> <br/> <br/> <br/>
+    </div>
     </div>
   );
 };

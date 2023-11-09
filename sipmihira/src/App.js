@@ -1,9 +1,9 @@
 import './App.css';
 import {
-  Footer, AboutUs, Possibility, Downloads, Header,
+  Footer, AboutUs, Downloads, Header,
   LiteratureSurvey, ResearchGap, ResearchProblem, ResearchObjectives, Methodology, Technologies, Milestones
 } from './containers';
-import { Brand, Navbar, ContactUs } from './components';
+import {Navbar, ContactUs } from './components';
 
 function App() {
   return (
@@ -19,9 +19,7 @@ function App() {
       <Methodology />
       <Technologies />
       <Milestones />
-      <Brand />
       <Downloads />
-      <Possibility />
       <AboutUs />
       <ContactUs />
       <Footer />

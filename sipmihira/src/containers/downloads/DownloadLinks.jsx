@@ -1,6 +1,6 @@
 const downloadLinks = {
     //Document
-    TOPIC_ASSESSMENTS : "",
+    TOPIC_ASSESSMENTS : "https://drive.google.com/file/d/1Oaz_OqG_L2kVhqmElw2dr8TDhfCH4GcS/view?usp=sharing",
     CHARTER: "https://drive.google.com/file/d/1GqDkyG3Uz2dfm9muh79cHpdV3YGqF06W/view?usp=sharing",
     PROPOSAL_DOCUMENTS: "https://drive.google.com/drive/folders/1kdW6qcjWnoYUdNHyo3YSba2S8ISXIo6k?usp=sharing",
     STATUS_DOCUMENTS_1: "https://drive.google.com/drive/folders/1bMBhQy4L-FdJN9JyW_K077QINGcwfwsE?usp=sharing",
