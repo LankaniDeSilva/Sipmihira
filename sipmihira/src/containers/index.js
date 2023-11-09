@@ -5,7 +5,7 @@ export { default as Header } from './header/Header';
 export { default as LiteratureSurvey } from './productScope/Literature/literatureSurvey';
 export { default as ResearchGap } from './productScope/researchGap/researchGap';
 export { default as ResearchProblem } from './productScope/researchProblem/researchProblem';
-export { default as ResearchObjectives } from './productScope/researchObjectives';
+export { default as ResearchObjectives } from './productScope/objectives/researchObjectives';
 export { default as Methodology } from './productScope/methodology';
 export { default as Technologies } from './technologies/Technologies';
 export { default as Milestones } from './milestones/Milestones';
