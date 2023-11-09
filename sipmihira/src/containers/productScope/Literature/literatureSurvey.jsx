@@ -5,12 +5,12 @@ import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
 import { sinhala, survey } from "../import.js";
 import "./literature.css";
-import { Typography } from "@mui/material";
+import { Grid, Typography } from "@mui/material";
 
 function MediaControlCard(props) {
   const {image, isText} = props;
   return (
-    <Card sx={{ display: "flex", width: "320px", mt: "20px" }}>
+    <Card sx={{ display: "flex", minWidth: "250px", mt: "20px" }}>
     {isText ? 
       <CardMedia
         component="img"
@@ -45,16 +45,17 @@ const LiteratureSurvey = () => {
         <h1 className="gradient__text">Product Scope</h1>
         <h2 className="gradient__text">Literature Survey</h2>
       </div>
-
-      <div className="two-column-container">
+      <Grid container justifyContent="flex-start" spacing={1} mt={2}>
+      <Grid item xs={12} sm={6}>
         <div className="card">
           <MediaControlCard image={sinhala} isText={true}/>
           <p className="caption">Figure 1: Wikipedia</p>
           <MediaControlCard image={survey}/>
           <p className="caption">Figure 2: Statistics of Sinhala medium students in Sri Lanka 2021</p>
         </div>
-        <div className="right-column">
-          <p className="survey_header">
+        </Grid>
+        <Grid item xs={12} sm={6}>
+          <p className="gap">
             A. In the domain of Sinhala alphabet education for young learners,
             mobile applications are being integrated, but they lack tailored
             features for fostering writing skills and auditory acumen. Notably,
@@ -91,8 +92,8 @@ const LiteratureSurvey = () => {
             human-readable stories. These approaches combine
             images and text to create engaging storytelling experiences.
           </p>
-        </div>
-      </div>
+        </Grid>
+        </Grid>
     </div>
   );
 };

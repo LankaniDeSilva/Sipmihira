@@ -31,7 +31,7 @@ const Footer = () => (
         <h4>Get in touch</h4>
         <p>Malabe  colombo Sri Lanka</p>
         <p>0713 141 728</p>
-        <p>sipmihira@gmail.com</p>
+        <p>info.sipmihira@gmail.com</p>
       </div>
     </div>
 
