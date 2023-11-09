@@ -1,5 +1,5 @@
 import survey from '../../assets/survayImage.PNG'
-import systemOverview from '../../assets/sytemOverview.jpg'
+import systemOverview from '../../assets/sytemOverview.png'
 
 
 export {

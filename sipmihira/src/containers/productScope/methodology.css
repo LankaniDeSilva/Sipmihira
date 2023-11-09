@@ -1,0 +1,36 @@
+#methodology {
+    font-family: 'Roboto', sans-serif;
+}
+
+.raw-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.raw-flex {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.image-container {
+    width: 50%;
+    margin-right: 20px;
+}
+
+.paragraph-container {
+    width: 50%;
+}
+
+.paragraph-container p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+.image{
+    width: 100%;
+}
+
+.paragraph-container ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
