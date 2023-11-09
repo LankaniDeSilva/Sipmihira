@@ -6,7 +6,9 @@ import './technologies.css';
 const Technologies = () => (
   <div className="sipmihira__technology section__padding" id="technolog">
     <div className="sipmihira__technology-heading">
-      <h2 className="gradient__text h2">Technologies<br /> </h2>
+      <div className="gpt3__header-content">
+        <h1 className="gradient__text" style={{fontSize:'43px'}}>Technologies</h1>
+      </div>
       <h3 className="subHeadindg2 h3">"We are using cutting-edge technologies to shape the future of the children."</h3>
     </div>
 

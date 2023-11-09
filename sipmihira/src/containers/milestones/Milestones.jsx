@@ -16,10 +16,13 @@ function Milestones() {
   return (
 
     <div className="sipmihira__blog section__padding" id="milestones">
-      <br/><br/>
-        <h1 className="gradient__text h2">Milestones</h1><br/>
-        <h2>Timeline in Brief</h2><br/>
-        <div className='sipmihira__timeline'>
+      <br /><br />
+      <div className="gpt3__header-content">
+        <h1 className="gradient__text" style={{ fontSize: '43px' }}>Milestones</h1>
+      </div>
+      <br />
+      <h2>Timeline in Brief</h2><br />
+      <div className='sipmihira__timeline'>
         <VerticalTimeline>
           {timelineElements.map((element) => {
             return (
@@ -27,8 +30,8 @@ function Milestones() {
                 key={element.key}
                 date={element.date}
                 dateClassName="date"
-                iconStyle={ workIconStyles }
-                icon={ <WorkIcon /> }
+                iconStyle={workIconStyles}
+                icon={<WorkIcon />}
               >
                 <h3 className="vertical-timeline-element-title">
                   {element.title}
