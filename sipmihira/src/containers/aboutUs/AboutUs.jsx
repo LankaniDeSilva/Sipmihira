@@ -14,7 +14,7 @@ const AboutUs = () => (
         <Article imgUrl={blog01} name="Ms. Suriyaa Kumari" status="Supervisor" possision="Lecturer" campus="Sri Lanka Institute of Information Technology" department="Department" department_possion="Faculty Of Computing | Information Technology"/>
         <Article imgUrl={blog02} name="Mr. Supunya Swarnakantha" status="Co-Supervisor" possision="Lecturer" campus="Sri Lanka Institute of Information Technology" department="Department" department_possion="Faculty Of Computing | Information Technology"/>
       </div>
-    </div><br/>
+    </div><p style={{paddingBottom:'40px'}}></p><br/>
     <div className="sipmihira__blog-container">
       <div className="sipmihira__blog-container_groupB">
         <Article imgUrl={blog03} name="Saranga R.G.V." status="Developer" possision="Undergraduate" campus="Sri Lanka Institute of Information Technology" department="Department" department_possion="Computer Science & Software Engineering"/>
