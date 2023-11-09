@@ -1,6 +1,5 @@
 import React from "react";
 import { Grid } from "@mui/material";
-// import "../product.css";
 import "./researchGap.css";
 
 function ResearchGap() {
