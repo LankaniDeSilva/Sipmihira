@@ -3,7 +3,7 @@ import {
   Footer, AboutUs, Possibility, Downloads, Header,
   LiteratureSurvey, ResearchGap, ResearchProblem, ResearchObjectives, Methodology, Technologies, Milestones
 } from './containers';
-import { CTA, Brand, Navbar, ContactUs } from './components';
+import { Brand, Navbar, ContactUs } from './components';
 
 function App() {
   return (
@@ -22,7 +22,6 @@ function App() {
       <Brand />
       <Downloads />
       <Possibility />
-      <CTA />
       <AboutUs />
       <ContactUs />
       <Footer />
