@@ -9,3 +9,4 @@ export { default as ResearchProblem } from './productScope/researchProblem';
 export { default as ResearchObjectives } from './productScope/researchObjectives';
 export { default as Methodology } from './productScope/methodology';
 export { default as Technologies } from './technologies/Technologies';
+export { default as Milestones } from './milestones/Milestones';
