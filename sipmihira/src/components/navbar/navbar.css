@@ -8,6 +8,7 @@
     position: fixed;
     transition: top 0.3s; /* Add a smooth transition effect */
     width: 100%;
+    z-index: 100;
 }
 
 .sipmihira__navbar-links {

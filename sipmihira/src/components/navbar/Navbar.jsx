@@ -17,7 +17,7 @@ const Menu = () => (
         <a href="#technolog">Technologies</a>
       </div>
     </div>
-    <p><a href="#possibility">Milestones</a></p>
+    <p><a href="#milestones">Milestones</a></p>
     <div className="dropdown">
       <p style={{ color: "black" }}>Downloads</p>
       <div className="dropdown-content">
